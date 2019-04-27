@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4B07ABA2273E8B400BFDBC7 /* main.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B07AB92273E8B400BFDBC7 /* main.framework */; };
-		D4B07ABB2273E8B400BFDBC7 /* main.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4B07AB92273E8B400BFDBC7 /* main.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D4B07ABF2274493F00BFDBC7 /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4B07ABE2274493F00BFDBC7 /* SharedCode.framework */; };
+		D4B07AC02274493F00BFDBC7 /* SharedCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4B07ABE2274493F00BFDBC7 /* SharedCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4F3FAE72273E05F0088B30D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F3FAE62273E05F0088B30D /* AppDelegate.swift */; };
 		D4F3FAE92273E05F0088B30D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F3FAE82273E05F0088B30D /* ViewController.swift */; };
 		D4F3FAEC2273E05F0088B30D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F3FAEA2273E05F0088B30D /* Main.storyboard */; };
@@ -36,13 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D4B07ABC2273E8B400BFDBC7 /* Embed Frameworks */ = {
+		D4B07AC12274493F00BFDBC7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D4B07ABB2273E8B400BFDBC7 /* main.framework in Embed Frameworks */,
+				D4B07AC02274493F00BFDBC7 /* SharedCode.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +50,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D4B07AB92273E8B400BFDBC7 /* main.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = main.framework; path = "SharedCode/build/xcode-frameworks/main.framework"; sourceTree = "<group>"; };
+		D4B07ABE2274493F00BFDBC7 /* SharedCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedCode.framework; path = "SharedCode/build/xcode-frameworks/SharedCode.framework"; sourceTree = "<group>"; };
 		D4F3FAE32273E05F0088B30D /* mezamashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mezamashi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F3FAE62273E05F0088B30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4F3FAE82273E05F0088B30D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4B07ABA2273E8B400BFDBC7 /* main.framework in Frameworks */,
+				D4B07ABF2274493F00BFDBC7 /* SharedCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 		D4F3FADA2273E05F0088B30D = {
 			isa = PBXGroup;
 			children = (
-				D4B07AB92273E8B400BFDBC7 /* main.framework */,
+				D4B07ABE2274493F00BFDBC7 /* SharedCode.framework */,
 				D4F3FAE52273E05F0088B30D /* mezamashi */,
 				D4F3FAFA2273E0600088B30D /* mezamashiTests */,
 				D4F3FB052273E0600088B30D /* mezamashiUITests */,
@@ -155,7 +155,7 @@
 				D4F3FADF2273E05F0088B30D /* Sources */,
 				D4F3FAE02273E05F0088B30D /* Frameworks */,
 				D4F3FAE12273E05F0088B30D /* Resources */,
-				D4B07ABC2273E8B400BFDBC7 /* Embed Frameworks */,
+				D4B07AC12274493F00BFDBC7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

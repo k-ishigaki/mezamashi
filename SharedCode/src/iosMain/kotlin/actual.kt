@@ -1,5 +1,7 @@
 package com.splascope.phone.mezamashi
 
+import platform.UIKit.UIDevice
+
 actual fun platformName(): String {
-    return "iOS"
+    return UIDevice.currentDevice.systemName + " " + UIDevice.currentDevice.systemVersion
 }

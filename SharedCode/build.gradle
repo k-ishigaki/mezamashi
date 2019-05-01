@@ -1,5 +1,6 @@
 apply plugin: 'kotlin-multiplatform'
 
+apply from: 'android.gradle'
 
 kotlin {
     targets {
@@ -12,16 +13,23 @@ kotlin {
             }
         }
 
-        fromPreset(presets.jvm, 'android')
+        android()
     }
 
     sourceSets {
+        final def coroutines_version = '1.2.1'
         commonMain.dependencies {
-            api 'org.jetbrains.kotlin:kotlin-stdlib-common'
+            implementation 'org.jetbrains.kotlin:kotlin-stdlib-common'
+            implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core-common:$coroutines_version"
         }
 
         androidMain.dependencies {
-            api 'org.jetbrains.kotlin:kotlin-stdlib'
+            implementation "org.jetbrains.kotlin:kotlin-stdlib"
+            implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
+        }
+
+        iosMain.dependencies {
+            implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core-native:$coroutines_version"
         }
     }
 }

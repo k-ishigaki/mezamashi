@@ -3,6 +3,7 @@ package com.splascope.android.mezamashi
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import com.splascope.phone.mezamashi.callDelayed
 import com.splascope.phone.mezamashi.createApplicationScreenMessage
 
 class MainActivity : AppCompatActivity() {
@@ -13,5 +14,11 @@ class MainActivity : AppCompatActivity() {
 
 
         findViewById<TextView>(R.id.main_text).text = createApplicationScreenMessage()
+
+        callDelayed {
+            runOnUiThread {
+                findViewById<TextView>(R.id.main_text).text = "timer end"
+            }
+        }
     }
 }

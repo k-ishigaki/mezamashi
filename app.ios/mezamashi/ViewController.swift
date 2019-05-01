@@ -21,8 +21,13 @@ class ViewController: UIViewController {
         label.font = label.font.withSize(25)
         label.text = CommonKt.createApplicationScreenMessage()
         self.view.addSubview(label)
+        
+        CommonKt.callDelayed { () -> KotlinUnit in
+            DispatchQueue.main.async {
+                label.text = "timer end"
+            }
+            return .init()
+        }
     }
-
-
 }
 

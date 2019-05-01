@@ -23,6 +23,15 @@ android {
     packagingOptions {
         exclude 'META-INF/kotlinx-coroutines-core.kotlin_module'
     }
+    sourceSets {
+        // use kotlin directory instead of src/main/java
+        main.java.srcDirs += 'src/main/kotlin'
+        test.java.srcDirs += 'src/test/kotlin'
+        androidTest.java.srcDirs += 'src/androidTest/kotlin'
+        main.kotlin.srcDirs += 'src/main/kotlin'
+        test.kotlin.srcDirs += 'src/test/kotlin'
+        androidTest.kotlin.srcDirs += 'src/androidTest/kotlin'
+    }
 }
 
 dependencies {

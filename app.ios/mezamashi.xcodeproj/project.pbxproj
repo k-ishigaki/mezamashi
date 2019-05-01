@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4E499012278665400806A36 /* SharedCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4E499002278665400806A36 /* SharedCode.framework */; };
 		D4E499022278665400806A36 /* SharedCode.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4E499002278665400806A36 /* SharedCode.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4F3FAE72273E05F0088B30D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F3FAE62273E05F0088B30D /* AppDelegate.swift */; };
 		D4F3FAE92273E05F0088B30D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F3FAE82273E05F0088B30D /* ViewController.swift */; };
@@ -50,7 +49,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D4B07ABE2274493F00BFDBC7 /* SharedCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedCode.framework; path = "SharedCode/build/xcode-frameworks/SharedCode.framework"; sourceTree = "<group>"; };
 		D4E499002278665400806A36 /* SharedCode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedCode.framework; path = "../SharedCode/build/xcode-frameworks/SharedCode.framework"; sourceTree = "<group>"; };
 		D4F3FAE32273E05F0088B30D /* mezamashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mezamashi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F3FAE62273E05F0088B30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4E499012278665400806A36 /* SharedCode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +93,6 @@
 		D4F3FADA2273E05F0088B30D = {
 			isa = PBXGroup;
 			children = (
-				D4B07ABE2274493F00BFDBC7 /* SharedCode.framework */,
 				D4E499002278665400806A36 /* SharedCode.framework */,
 				D4F3FAE52273E05F0088B30D /* mezamashi */,
 				D4F3FAFA2273E0600088B30D /* mezamashiTests */,

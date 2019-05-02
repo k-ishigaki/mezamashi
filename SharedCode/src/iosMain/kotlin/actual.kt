@@ -1,4 +1,4 @@
-package com.splascope.phone.mezamashi
+package com.splascope.mezamashi
 
 import platform.UIKit.UIDevice
 

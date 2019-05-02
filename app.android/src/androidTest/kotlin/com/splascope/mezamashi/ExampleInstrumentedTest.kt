@@ -1,4 +1,4 @@
-package com.splascope.android.mezamashi
+package com.splascope.mezamashi
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.splascope.android.mezamashi", appContext.packageName)
+        assertEquals("com.splascope.mezamashi", appContext.packageName)
     }
 }

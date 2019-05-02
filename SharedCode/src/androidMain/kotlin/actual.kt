@@ -1,4 +1,4 @@
-package com.splascope.phone.mezamashi
+package com.splascope.mezamashi
 
 import android.content.Context
 import android.content.SharedPreferences

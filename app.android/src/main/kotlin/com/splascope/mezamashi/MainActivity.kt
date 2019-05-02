@@ -1,10 +1,8 @@
-package com.splascope.android.mezamashi
+package com.splascope.mezamashi
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-import com.splascope.phone.mezamashi.callDelayed
-import com.splascope.phone.mezamashi.createApplicationScreenMessage
 
 class MainActivity : AppCompatActivity() {
 

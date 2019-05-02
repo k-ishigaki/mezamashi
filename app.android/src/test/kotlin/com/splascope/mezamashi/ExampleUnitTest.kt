@@ -1,4 +1,4 @@
-package com.splascope.android.mezamashi
+package com.splascope.mezamashi
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.splascope.mezamashi
+package io.github.k_ishigaki.mezamashi
 
 import org.junit.Test
 

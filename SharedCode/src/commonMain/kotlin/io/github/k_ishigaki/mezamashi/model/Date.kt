@@ -46,9 +46,6 @@ expect class Date {
     fun getDayOfWeek(): DayOfWeek
 }
 
-fun Date.getNext(dayOfWeek: DayOfWeek) = forward(Interval.day(getDayOfWeek().remainsTo(dayOfWeek)))
-fun Date.getPrevious(dayOfWeek: DayOfWeek) = backward(Interval.day(getDayOfWeek().passedFrom(dayOfWeek)))
-
 class Interval private constructor(val second: Long) {
     companion object {
         fun second(second: Int) = Interval(second.toLong())

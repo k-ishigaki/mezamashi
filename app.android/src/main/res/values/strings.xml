@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">mezamashi</string>
+    <string name="timer_end_text">timer end</string>
 </resources>

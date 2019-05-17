@@ -37,9 +37,9 @@ android {
 }
 
 dependencies {
-    val kotlin_version: String by project
+    val kotlinVersion: String by project
     //implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion")
 }
 
 kotlin {

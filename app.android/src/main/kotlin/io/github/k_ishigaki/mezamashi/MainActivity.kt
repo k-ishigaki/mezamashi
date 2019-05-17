@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         callDelayed {
             runOnUiThread {
-                findViewById<TextView>(R.id.main_text).text = "timer end"
+                findViewById<TextView>(R.id.main_text).text = getString(R.string.timer_end_text)
             }
         }
     }

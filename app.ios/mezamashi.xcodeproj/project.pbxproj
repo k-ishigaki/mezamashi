@@ -287,7 +287,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd \"$SRCROOT/../SharedCode/build/xcode-frameworks/\"\n./gradlew :SharedCode:packForXCode\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#cd \"$SRCROOT/../SharedCode/build/xcode-frameworks/\"\ncd \"$SRCROOT/../\"\n./gradlew :SharedCode:packForXCode\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
